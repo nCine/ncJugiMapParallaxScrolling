@@ -1,10 +1,10 @@
 set(PACKAGE_NAME "ncJugiMapParallaxScrolling")
 set(PACKAGE_EXE_NAME "ncjugimapparallaxscrolling")
-set(PACKAGE_VENDOR "Angelo Theodorou and Jugilus")
+set(PACKAGE_VENDOR "Jugilus")
 set(PACKAGE_COPYRIGHT "Copyright ©2020 ${PACKAGE_VENDOR}")
 set(PACKAGE_DESCRIPTION "A nCine port of the JugiMap Parallax Scrolling test by Jugilus")
-set(PACKAGE_HOMEPAGE "https://ncine.github.io")
-set(PACKAGE_REVERSE_DNS "io.github.ncine.ncjugimapparallaxscrolling")
+set(PACKAGE_HOMEPAGE "http://jugimap.com")
+set(PACKAGE_REVERSE_DNS "com.jugimap.parallaxscrolling.ncine")
 
 set(PACKAGE_INCLUDE_DIRS src/)
 
@@ -12,6 +12,8 @@ set(PACKAGE_SOURCES
 	src/engineIndependent/parallaxScene.h
 	src/engineIndependent/parallaxScene.cpp
 
+	src/jugimap/jmAnimationCommon.h
+	src/jugimap/jmAnimationCommon.cpp
 	src/jugimap/jmCamera.cpp
 	src/jugimap/jmCamera.h
 	src/jugimap/jmCollision.cpp
@@ -45,6 +47,10 @@ set(PACKAGE_SOURCES
 	src/jugimap/jmStreams.h
 	src/jugimap/jmText.cpp
 	src/jugimap/jmText.h
+	src/jugimap/jmTimelineAnimation.h
+	src/jugimap/jmTimelineAnimation.cpp
+	src/jugimap/jmTimelineAnimationInstance.h
+	src/jugimap/jmTimelineAnimationInstance.cpp
 	src/jugimap/jmTween.cpp
 	src/jugimap/jmTween.h
 	src/jugimap/jmUtilities.cpp

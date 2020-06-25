@@ -2,7 +2,7 @@ variables:
   package_name: ncJugiMapParallaxScrolling
   libraries_branch: libraries-OS-COMPILER
   ncine_branch: nCine-BRANCHNAME-OS-COMPILER
-  ncine_source_branch: $(Build.SourceBranchName)
+  ncine_source_branch: develop
   deploy_message:
     "Push artifact from Azure Pipelines build $(Build.BuildNumber) with id $(Build.BuildId)
 

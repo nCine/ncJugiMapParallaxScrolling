@@ -1,7 +1,7 @@
 set(PACKAGE_NAME "ncJugiMapParallaxScrolling")
 set(PACKAGE_EXE_NAME "ncjugimap_parallaxscrolling")
 set(PACKAGE_VENDOR "Jugilus")
-set(PACKAGE_COPYRIGHT "Copyright ©2020 ${PACKAGE_VENDOR}")
+set(PACKAGE_COPYRIGHT "Copyright ©2020-2021 ${PACKAGE_VENDOR}")
 set(PACKAGE_DESCRIPTION "A nCine port of the JugiMap Parallax Scrolling demo by Jugilus")
 set(PACKAGE_HOMEPAGE "http://jugimap.com")
 set(PACKAGE_REVERSE_DNS "com.jugimap.parallaxscrolling.ncine")

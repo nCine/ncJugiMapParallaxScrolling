@@ -4,7 +4,7 @@ project(jugimap_framework-download NONE)
 
 include(ExternalProject)
 ExternalProject_Add(jugimap_framework
-	GIT_REPOSITORY    https://github.com/Jugilus/JugiMapFramework.git
+	GIT_REPOSITORY    "${JUGIMAP_FRAMEWORK_REPOSITORY}.git"
 	GIT_TAG           "${JUGIMAP_FRAMEWORK_VERSION_TAG}"
 	GIT_SHALLOW       TRUE
 	SOURCE_DIR        "${CMAKE_BINARY_DIR}/jugimap_framework-src"
